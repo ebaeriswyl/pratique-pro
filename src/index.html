@@ -5,29 +5,49 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <script src="js/main.js" type="module"></script>
     <header>
-      <nav>
-        <p>programme</p>
-        <p>exposition</p>
-        <p>info pratique</p>
-        <p>partenaires</p>
-        <p>contact</p>
+      <style>
+        header {
+          background-image: url("../img/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
+          background-repeat: no-repeat;
+          max-width: 1440px;
+          max-height: 1080px;
+        }
+      </style>
+      <!-- <div class="container">
+        <div class="row">
+          <div class="col-lg-2">colonne 1</div>
+          <div class="col">colonne 2</div>
+        </div>
+      </div> -->
+      <nav class="navigation col-12">
+        <h3>programme</h3>
+        <h3>exposition</h3>
+        <h3>info pratique</h3>
+        <h3>partenaires</h3>
+        <h3>contact</h3>
         <div class="selecteur-langue">
           <img src="../img/france.png" alt="drapeu français" />
-          <img src="../img/chevron@2x.png" alt="chevron" />
+          <img src="../img/chevron.png" alt="chevron" />
         </div>
-        <hr />
       </nav>
+      <hr class="col-12" />
       <!-- <div class="flou"></div> -->
-      <img src="../img/richard-horvath-_nWaeTF6qo0-unsplash.jpg" />
-      <div class="title">
+      <!-- <img src="../img/richard-horvath-_nWaeTF6qo0-unsplash.jpg" /> -->
+      <div class="title-festival">
         <h1>fesival des arts numérique</h1>
         <h2>du 13 au 15 octobre 2023 à Fribourg</h2>
       </div>
-      <div class="oval">
+      <div class="oval-logo">
         <img src="../img/eikonica.svg" alt="logo-eikonica" />
       </div>
     </header>
