@@ -1,1 +1,57 @@
+.titre-exposition {
+  text-align: center;
+  padding: 50px 0px;
+  background-color: #2547d5;
+  color: white;
+}
 
+.expositions-presentation {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.exposition-texte {
+  padding: 120px 0px 120px 85px;
+}
+
+.titre-exposition-1 {
+  padding: 40px 0px;
+  text-align: center;
+  background-color: #d9ff63;
+  color: black;
+}
+
+.titre-exposition-2 {
+  padding: 40px 0px;
+  text-align: center;
+  background-color: #2547d5;
+  color: white;
+}
+
+.titre-exposition-3 {
+  padding: 40px 0px;
+  text-align: center;
+  background-color: #14112e;
+  color: white;
+}
+
+.exposition-article {
+  margin: 60px 80px;
+}
+
+.exposition-article h3 {
+  padding: 30 0px 370px 60px;
+  color: white;
+  display: inline;
+  max-width: 400px;
+}
+
+.exposition-article h2 {
+  // background-color: #d9ff63;
+  // text-align: right;
+  padding: 30px 20px;
+  // transform: rotate(-8);
+  // display: inline;
+  max-width: 400px;
+}

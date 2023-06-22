@@ -1,5 +1,6 @@
 .evenements {
   padding: 0px 85px;
+  padding-bottom: 60px;
 }
 
 .container-evenement {
@@ -15,17 +16,50 @@
 }
 
 .evenement-article h3 {
-  padding: 30 0px 370px 60px;
+  padding: 30 0px 60px 60px;
   color: white;
 }
 
 .evenement-article h2 {
-  // background-color: #d9ff63;
   text-align: right;
-  padding: 30px 20px;
-  transform: rotate(-8);
+  transform: rotate(8deg);
 }
 
 .oval img {
   justify-content: right;
 }
+
+// .article-container img {
+//   z-index: -10;
+// }
+
+.article-container {
+  position: relative;
+
+  .article-time {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .article-type {
+    position: absolute;
+    bottom: 65px;
+    right: 140px;
+    // background-color: re;
+  }
+
+  .oval {
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+  }
+}
+
+// .article-concert {
+//   position: relative;
+
+//   .article-type {
+//     position: absolute;
+//     right: 5px;
+//   }
+// }

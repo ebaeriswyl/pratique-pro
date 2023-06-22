@@ -15,14 +15,6 @@
   <body>
     <script src="js/main.js" type="module"></script>
     <header>
-      <style>
-        header {
-          background-image: url("../img/richard-horvath-_nWaeTF6qo0-unsplash.jpg");
-          background-repeat: no-repeat;
-          max-width: 1920px;
-          max-height: 1080px;
-        }
-      </style>
       <!-- <div class="container">
         <div class="row">
           <div class="col-lg-2">colonne 1</div>
@@ -47,7 +39,7 @@
         <img src="../img/eikonica.svg" alt="logo-eikonica" />
       </div>
       <div class="titre-festival col-9">
-        <h1>fesival des arts numérique</h1>
+        <h1>festival des arts numérique</h1>
         <h2>du 13 au 15 octobre 2023 à Fribourg</h2>
       </div>
     </header>
@@ -84,87 +76,57 @@
               background-repeat: no-repeat;
             }
           </style>
-          <!-- <div class="quadrillage">
-            <img src="../img/quadrillage@1x.png" alt="" />
-          </div> -->
           <div class="container-evenement">
             <article class="evenement-article col-6">
-              <style>
-                .evenement-article .conférence {
-                  background-image: url("../img/img-conférence.png");
-                  background-repeat: no-repeat;
-                }
-              </style>
-              <!-- <img src="../img/img-conférence.png" /> -->
-              <h3>11h : STUDIO VIDEO</h3>
-              <div class="oval">
-                <img src="../img/Oval.png" />
-                <h2>conférences</h2>
+              <div class="article-container">
+                <div id="father">
+                  <img src="../img/img-conférence.png" alt="" />
+                  <h3 class="article-time">14H : SALLE 102</h3>
+                  <img class="oval" src="../img/Oval.png" />
+                  <h2 class="article-type">conférences</h2>
+                </div>
               </div>
             </article>
             <article class="evenement-article col-6">
-              <style>
-                .evenement-article {
-                  background-image: url("../img/foodtruck.png");
-                  background-repeat: no-repeat;
-                }
-              </style>
-              <!-- <img src="../img/foodtruck.png" /> -->
-              <h3>12h30 : cours de eikon</h3>
-              <div class="oval">
-                <h2>pause repas</h2>
+              <div class="article-container">
+                <img src="../img/foodtruck.png" alt="" />
+                <h3 class="article-time">14H : SALLE 102</h3>
+                <img class="oval" src="../img/Oval.png" />
+                <h2 class="article-type">pause repas</h2>
               </div>
             </article>
             <article class="evenement-article col-6">
-              <style>
-                .evenement-article {
-                  background-image: url("../img/atelier-seniors.png");
-                  background-repeat: no-repeat;
-                }
-              </style>
-              <!-- <img src="../img/atelier-seniors.png" /> -->
-              <h3>14H : SALLE 102</h3>
-              <div class="oval">
-                <h2>atelier</h2>
+              <div class="article-container">
+                <img src="../img/atelier-seniors.png" alt="" />
+                <h3 class="article-time">14H : SALLE 102</h3>
+                <img class="oval" src="../img/Oval.png" />
+                <h2 class="article-type">atelier</h2>
               </div>
             </article>
             <article class="evenement-article col-6">
-              <style>
-                .evenement-article {
-                  background-image: url("../img/atelier-pixel.png");
-                  background-repeat: no-repeat;
-                }
-              </style>
-              <!-- <img src="../img/atelier-pixel.png" /> -->
-              <h3>16h : salle 103</h3>
-              <div class="oval">
-                <h2>atelier</h2>
+              <div class="article-container">
+                <img src="../img/atelier-pixel.png" alt="" />
+                <h3 class="article-time">14H : SALLE 102</h3>
+                <img class="oval" src="../img/Oval.png" />
+                <h2 class="article-type">atelier</h2>
               </div>
             </article>
             <article class="evenement-article col-6">
-              <style>
-                .evenement-article {
-                  background-image: url("../img/vernissage.png");
-                  background-repeat: no-repeat;
-                }
-              </style>
-              <!-- <img src="../img/vernissage.png" /> -->
-              <h3>18h : Korridor</h3>
-              <div class="oval">
-                <h2>vernissage</h2>
+              <div class="article-container">
+                <img src="../img/vernissage.png" alt="" />
+                <h3 class="article-time">14H : SALLE 102</h3>
+                <img class="oval" src="../img/Oval.png" />
+                <h2 class="article-type">vernissage</h2>
               </div>
             </article>
             <article class="evenement-article col-6">
-              <style>
-                .evenemen-article {
-                  background-image: url("../img/concert.png");
-                  background-repeat: no-repeat;
-                }
-              </style>
-              <!-- <img src="../img/concert.png" /> -->
-              <h3>20h : Fri-son</h3>
-              <div class="oval">
-                <h2>concert</h2>
+              <div class="article-container">
+                <img src="../img/concert.png" alt="" />
+                <h3 class="article-time">14H : SALLE 102</h3>
+                <div class="article-concert">
+                  <img class="oval" src="../img/Oval.png" />
+                  <h2 class="article-type">concert</h2>
+                </div>
               </div>
             </article>
           </div>
@@ -180,14 +142,16 @@
         <h1>exposition</h1>
       </div>
       <div class="expositions">
-        <div class="exposition-texte">
-          <h2>a propos des expositions</h2>
-          <p>
-            Tout au long du festival, les visiteurs pourront découvrir les
-            expositions d'œuvres d'art numériques, expérimenter des
-            installations interactives et participer à des discussions
-            informelles avec les artistes et les professionnels du milieu.
-          </p>
+        <div class="expositions-presentation">
+          <div class="exposition-texte col-6">
+            <h2>a propos des expositions</h2>
+            <p>
+              Tout au long du festival, les visiteurs pourront découvrir les
+              expositions d'œuvres d'art numériques, expérimenter des
+              installations interactives et participer à des discussions
+              informelles avec les artistes et les professionnels du milieu.
+            </p>
+          </div>
           <img src="../img/image-remplacement.jpeg" alt="" />
         </div>
         <div class="titre-exposition-1">
@@ -200,11 +164,19 @@
           <div class="titre-exposition-3">
             <h3>Interfaces expérimentales</h3>
           </div>
-          <div class="quadrillage-pt">
-            <img src="../img/quadrillage-pt.png" alt="" />
-          </div>
-          <article class="exposition">
-            <img src="../img/expo.png" />
+          <style>
+            .exposition-3 {
+              background-image: url("../img/quadrillage-gd@1x.png");
+              background-repeat: no-repeat;
+            }
+          </style>
+          <article class="exposition-article col-12">
+            <style>
+              .exposition-article {
+                background-image: url("../img/expo.png");
+                background-repeat: no-repeat;
+              }
+            </style>
             <h3>tout le long : salle 303</h3>
             <div class="oval">
               <h2>exposition</h2>
